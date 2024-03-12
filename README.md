@@ -23,4 +23,4 @@ Software-as-a-service AI image generator powered by Cloudinary.
 
 ## Credits
 
-- JavaScrupt Mastery on YouTube
+- JavaScript Mastery on YouTube
