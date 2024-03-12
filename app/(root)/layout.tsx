@@ -1,5 +1,6 @@
-import MobileNav from '@/components/share/MobileNav'
-import Sidebar from '@/components/share/Sidebar'
+import MobileNav from '@/components/shared/MobileNav'
+import Sidebar from '@/components/shared/Sidebar'
+import { Toaster } from '@/components/ui/toaster'
 import React from 'react'
 
 const Root = ({ children }: { children: React.ReactNode }) => {
@@ -13,6 +14,8 @@ const Root = ({ children }: { children: React.ReactNode }) => {
           {children}
         </div>
       </div>
+
+      <Toaster />
     </main>
   )
 }

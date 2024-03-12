@@ -26,7 +26,7 @@ export const connectToDatabase = async () => {
       "Missing MONGODB_URL"
     );
   }
-
+ 
   cached.promise = cached.promise || mongoose.connect(MONGODB_URL, { 
     dbName: 'pixel-lchemy', bufferCommands: false 
   });
