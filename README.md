@@ -19,3 +19,8 @@ Software-as-a-service AI image generator powered by Cloudinary.
 - Save and share transformed images
 - Search for transformed images
 - Purchase credits for transforming images
+
+
+## Credits
+
+- JavaScrupt Mastery on YouTube
